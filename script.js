@@ -74,7 +74,7 @@ document.querySelector('.discover-row-2 button').addEventListener('click', () =>
     const akanName = gender === "Male" 
         ? akanNames.male[dayOfWeek] 
         : akanNames.female[dayOfWeek];
-
+        
     // Update Akan Name Display
     const nameOutput = document.querySelector('.discover-row-1 p');
     nameOutput.textContent = `${akanName} (${name})`;
