@@ -3,7 +3,6 @@
 The Akan Name Finder is a web application inspired by the rich traditions of Ghanaian culture. It allows users to input their birthdate and gender to discover their unique Akan name, derived from the day of the week they were born. Akan names hold deep cultural significance, reflecting the soul and character of the individual.
 
 The app also serves as an educational tool, explaining the Akan naming system and its historical context.
-
 ## Developer Information
 Author: Louis Maina
 GitHub: studentdev-glitch
