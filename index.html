@@ -4,65 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akan Name finder</title>
+    <title>Akan Name Finder</title>
     <link rel="icon" href="./assets/akan.jpg" type="image/png">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Header Section -->
     <header class="head">
         <img src="./assets/akan.jpg" alt="Akan culture flag" class="culture-flag">
         <nav class="nav-bar">
             <ul>
+                <!-- Navigation Links -->
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#discover" class="nav-link">Discover name</a></li>
                 <li><a href="#about" class="nav-link">About Akan</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
                 <li><a href="#footer" class="nav-link">Footer</a></li>
-
             </ul>
         </nav>
     </header>
 
+    <!-- Home Section-->
     <section class="home" id="home">
         <img src="./assets/akanculture.jpeg" alt="Akan culture flag" class="culture-img">
         <div class="home-row">
             <h2>Welcome to Akan Name Finder</h2>
             <p>Welcome to our web application! Here, you can find out the day of the week you were born and uncover your
-                unique Akan
-                name, inspired by the rich traditions of Ghanaian culture. Simply input your birthdate and gender, and
-                let the app do
-                the rest!
-                Start exploring and learn more about Akan names based on the Wikipedia article on day names.</p>
+                unique Akan name, inspired by the rich traditions of Ghanaian culture. Simply input your birthdate and
+                gender, and
+                let the app do the rest! Start exploring and learn more about Akan names based on the Wikipedia article
+                on day names.</p>
         </div>
     </section>
 
+    <!-- Discover Section: -->
     <section class="discover" id="discover">
         <div class="discover-container">
+            <!-- Akan name result -->
             <div class="discover-row-1">
                 <h2>Your Akan Name Is:</h2>
                 <p>[Your Akan Name will appear here]</p>
             </div>
-        
-            <!-- Form Card -->
+
+            <!-- Akan Name Generator Form -->
             <div class="discover-row-2">
                 <legend>Akan Name Generator Form</legend>
                 <form>
                     <div class="form-row">
                         <label for="name">Name:</label>
                         <input type="text" name="name" id="name" required placeholder="Enter your name">
-        
                         <label for="dob">Date of Birth:</label>
                         <input type="date" name="dob" id="dob" required>
-        
                         <div class="radio-group">
                             <input type="radio" id="male" name="gender" value="Male">
                             <label for="male">Male</label>
-        
+
                             <input type="radio" id="female" name="gender" value="Female">
                             <label for="female">Female</label>
                         </div>
-        
                         <button type="button">Generate</button>
                     </div>
                 </form>
@@ -70,22 +70,32 @@
         </div>
     </section>
 
-
+    <!-- About Section -->
     <section class="about" id="about">
         <div class="about-content">
             <p class="title">Akan Naming Traditions</p>
-            <p class="description">The Akan people of Ghana, Ivory Coast, and Togo have a unique tradition of naming their children based on the day of the
-            week they were born and their birth order. These "day names" carry deep meanings related to the soul and character of
-            the individual. Middle names often add variety, reflecting birth order, twin status, or ancestral connections.
-            This naming tradition is not limited to the Akan people but is shared across West Africa and the African diaspora.
-            During the 18th–19th centuries, enslaved people from the region were given these names, with leaders of rebellions often
-            bearing "day names" like Kofi, Cudjoe, and Quamina.
-            Notable Ghanaians, such as Ghana's first president Kwame Nkrumah and former UN Secretary-General Kofi Annan, were named
-            through this system. Variants of these names exist across different Akan subgroups and languages, often reflecting
-            slight differences in pronunciation or affixes.
-            To learn more about the rich history and linguistic nuances of Akan naming, <a href="https://en.wikipedia.org/wiki/Akan_names" class="wiki">Read More.</a></p>
+            <p class="description">The Akan people of Ghana, Ivory Coast, and Togo have a unique tradition of naming
+                their children based on the day of the
+                week they were born and their birth order. These "day names" carry deep meanings related to the soul and
+                character of
+                the individual. Middle names often add variety, reflecting birth order, twin status, or ancestral
+                connections.
+                This naming tradition is not limited to the Akan people but is shared across West Africa and the African
+                diaspora.
+                During the 18th–19th centuries, enslaved people from the region were given these names, with leaders of
+                rebellions often
+                bearing "day names" like Kofi, Cudjoe, and Quamina.
+                Notable Ghanaians, such as Ghana's first president Kwame Nkrumah and former UN Secretary-General Kofi
+                Annan, were named
+                through this system. Variants of these names exist across different Akan subgroups and languages, often
+                reflecting
+                slight differences in pronunciation or affixes.
+                To learn more about the rich history and linguistic nuances of Akan naming, <a
+                    href="https://en.wikipedia.org/wiki/Akan_names" class="wiki">Read More.</a></p>
         </div>
     </section>
+
+    <!-- Contact Section-->
     <section class="contact" id="contact">
         <div class="form-container">
             <form class="contact-form">
@@ -93,26 +103,24 @@
                     <legend>Contact Us</legend>
                     <label for="name2">Name:</label>
                     <input type="text" name="name" id="name2" required placeholder="Enter your name">
-    
                     <label for="email2">Email:</label>
                     <input type="email" name="email" id="email2" required placeholder="Enter your email">
-    
                     <label for="message">Message:</label>
                     <textarea name="message" id="message" required placeholder="Enter your message"></textarea>
-    
                     <button type="submit">Send Message</button>
                 </fieldset>
             </form>
         </div>
     </section>
+
+    <!-- Footer Section -->
     <footer class="footer" id="footer">
         <div class="footer-container">
-            <!-- Header -->
             <div class="footer-header">
                 <h2>Akan Name Finder</h2>
                 <p>This app was created to celebrate and share the unique traditions of Akan culture with the world.</p>
             </div>
-    
+
             <!-- Social Media Links -->
             <div class="footer-social">
                 <a href="#" aria-label="GitHub">
@@ -131,8 +139,7 @@
                     <img src="https://cdn-icons-png.flaticon.com/128/5968/5968830.png" alt="Facebook" />
                 </a>
             </div>
-            
-    
+
             <!-- Navigation Links -->
             <div class="footer-nav">
                 <a href="#home">Home</a>
@@ -140,13 +147,11 @@
                 <a href="#about">About Akan names</a>
                 <a href="#contact">Contact</a>
             </div>
-    
-            <!-- Credits -->
+
             <div class="footer-credits">
                 <p>Designed through Figma and coded by Louis Maina</p>
             </div>
-    
-            <!-- Bottom Footer -->
+
             <div class="footer-bottom">
                 <p>&copy; 2025 Akan Name Finder. All rights reserved.</p>
                 <div class="footer-links">
@@ -156,6 +161,8 @@
             </div>
         </div>
     </footer>
+
+    <!-- External JavaScript file -->
     <script src="script.js"></script>
 </body>
 
