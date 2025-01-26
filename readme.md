@@ -9,6 +9,7 @@ Author: Louis Maina
 GitHub: studentdev-glitch
 Email: louis.maina@student.moringaschool.com
 
+
 ## Live Project
 You can view the live project here: [Live Akan Name finder Website]() # Akan Name finder web app.
 
