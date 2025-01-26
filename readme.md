@@ -10,7 +10,7 @@ Email: louis.maina@student.moringaschool.com
 
 
 ## Live Project
-You can view the live project here: [Live Akan Name finder Website]() # Akan Name finder web app.
+You can view the live project here: [Live Akan Name finder Website](https://studentdev-glitch.github.io/AkanNameCalculator/#footer) # Akan Name finder web app.
 
 ## Screenshot
 This is a screenshot of the form and display of Akan name
